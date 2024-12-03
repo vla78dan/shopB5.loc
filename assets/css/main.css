@@ -13,7 +13,7 @@ html, body {
 
 body {
     min-width: 320px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
@@ -32,6 +32,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/*.btn {*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*}*/
 
 .btn,
 .dropdown-menu {
@@ -79,7 +83,7 @@ ul.social-icons a {
     border-radius: 50%;
     float: left;
     text-align: center;
-    transition: all 0.4s;
+    transition: all 0.7s;
 }
 
 ul.social-icons a:hover {
