@@ -3,7 +3,7 @@
     --text-color: #6c757d;
     --accent-color: #FFd333;
     --contrast-color: #3D464d;
-    --accent-colorRed: #dc7a1d;
+
 
 }
 
@@ -25,7 +25,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    /*color: var(--accent-colorRed);*/
+
 }
 
 img {
@@ -63,7 +63,8 @@ main.main {
 }
 
 .header-top-phone a:hover {
-    text-decoration: underline;
+    color: var(--accent-color);
+    transition: all 0.8s;
 }
 
 ul.social-icons {
@@ -97,13 +98,11 @@ ul.social-icons a:hover {
     background-color: #fff;
 }
 
+/*===================== Logotipe Общие правила===================*/
+.header-logo img {
+    width: 30px;
+    height: auto;
+    }
 
 
-
-
-
-
-
-
-
-/*=========================== General rules Общие правила====================================*/
+/*===================== General rules Общие правила===================*/
