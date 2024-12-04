@@ -1,8 +1,8 @@
 :root {
     --bg-color: #f5f5f5;
     --text-color: #6c757d;
-    --accent-color: #ffd333;
-    --contrast-color: #3d464d;
+    --accent-color: #FFd333;
+    --contrast-color: #3D464d;
     --accent-colorRed: #dc7a1d;
 
 }
@@ -25,7 +25,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: var(--accent-colorRed);
+    /*color: var(--accent-colorRed);*/
 }
 
 img {
@@ -68,6 +68,8 @@ main.main {
 
 ul.social-icons {
     list-style: none;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 ul.social-icons li {
@@ -78,7 +80,7 @@ ul.social-icons a {
     background-color: var(--accent-color);
     color: var(--contrast-color);
     width: 30px;
-    height: 30px;
+    height: 31px;
     line-height: 30px;
     border-radius: 50%;
     float: left;
