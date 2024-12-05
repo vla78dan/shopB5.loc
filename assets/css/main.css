@@ -47,7 +47,21 @@ img {
 .form-control::placeholder {
     color: var(--gray-color);
 }
-.btn-outline-warning
+
+.btn-warning {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+
+}
+
+.btn-outline-warning {
+    border-color: var(--accent-color);
+}
+
+.btn-outline-warning:hover {
+    border-color: var(--accent-color);
+    color: var(--contrast-color);
+}
 
 
 
@@ -105,6 +119,10 @@ ul.social-icons a:hover {
 
 .header-top .btn {
     background-color: #fff;
+}
+
+.cart-buttons .btn {
+
 }
 
 /*===================== Logotipe Общие правила===================*/
