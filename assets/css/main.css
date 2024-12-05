@@ -3,8 +3,7 @@
     --text-color: #6c757d;
     --accent-color: #FFd333;
     --contrast-color: #3D464d;
-
-
+    --gray-color: #ccc;
 }
 
 html, body {
@@ -33,14 +32,24 @@ img {
     height: auto;
 }
 
-/*.btn {*/
-/*    font-family: 'Poppins', sans-serif;*/
-/*}*/
 
 .btn,
-.dropdown-menu {
+.dropdown-menu,
+.form-control{
     border-radius: 0;
 }
+
+.form-control:focus {
+    color: var(--text-color) !important;
+    border-color: var(--accent-color) !important;
+    box-shadow: none;
+}
+.form-control::placeholder {
+    color: var(--gray-color);
+}
+.btn-outline-warning
+
+
 
 /*=========================== General rules Общие правила====================================*/
 .wrapper {
@@ -102,7 +111,7 @@ ul.social-icons a:hover {
 .header-logo img {
     width: 30px;
     height: auto;
-    }
+}
 
 
 /*===================== General rules Общие правила===================*/
