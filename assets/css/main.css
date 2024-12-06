@@ -4,6 +4,7 @@
     --accent-color: #FFd333;
     --contrast-color: #3D464d;
     --gray-color: #ccc;
+    --pant-color: #c92710;
 }
 
 html, body {
@@ -56,6 +57,10 @@ img {
 
 .btn-outline-warning {
     border-color: var(--accent-color);
+}
+
+.bg-warning {
+    background-color: var(--accent-color) !important;
 }
 
 .btn-outline-warning:hover {
@@ -122,6 +127,14 @@ ul.social-icons a:hover {
 }
 
 .cart-buttons .btn {
+    color: var(--contrast-color);
+    transition: all 0.8s;
+
+}
+
+.cart-buttons .btn:hover {
+    border: 1px solid var(--pant-color);
+
 
 }
 
