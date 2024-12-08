@@ -1,19 +1,19 @@
 :root {
     --bg-color: #f5f5f5;
     --text-color: #6c757d;
-    --accent-color: #FFd333;
-    --contrast-color: #3D464d;
+    --accent-color: #ffd333;
+    --contrast-color: #3d464d;
     --gray-color: #ccc;
-    --pant-color: #c92710;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
 body {
     min-width: 320px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
@@ -25,7 +25,6 @@ a {
 
 a:hover {
     text-decoration: none;
-
 }
 
 img {
@@ -33,18 +32,18 @@ img {
     height: auto;
 }
 
-
 .btn,
 .dropdown-menu,
-.form-control{
+.form-control {
     border-radius: 0;
 }
 
 .form-control:focus {
-    color: var(--text-color) !important;
-    border-color: var(--accent-color) !important;
+    color: var(--text-color);
+    border-color: var(--accent-color);
     box-shadow: none;
 }
+
 .form-control::placeholder {
     color: var(--gray-color);
 }
@@ -52,7 +51,6 @@ img {
 .btn-warning {
     background-color: var(--accent-color);
     color: var(--contrast-color);
-
 }
 
 .btn-outline-warning {
@@ -64,13 +62,11 @@ img {
 }
 
 .btn-outline-warning:hover {
-    border-color: var(--accent-color);
+    background-color: var(--accent-color);
     color: var(--contrast-color);
 }
 
-
-
-/*=========================== General rules Общие правила====================================*/
+/* ============================= General rules ============================ */
 .wrapper {
     min-height: 100%;
     display: flex;
@@ -81,18 +77,16 @@ main.main {
     flex: 1 1 auto;
 }
 
-/*=========================== General rules Общие правила====================================*/
+/* ============================= General rules ============================ */
 
-
-/*=========================== Header rules Общие правила====================================*/
+/* ============================= Header rules ============================ */
 
 .header-top-phone a {
     text-decoration: none;
 }
 
 .header-top-phone a:hover {
-    color: var(--accent-color);
-    transition: all 0.8s;
+    text-decoration: underline;
 }
 
 ul.social-icons {
@@ -109,12 +103,12 @@ ul.social-icons a {
     background-color: var(--accent-color);
     color: var(--contrast-color);
     width: 30px;
-    height: 31px;
+    height: 30px;
     line-height: 30px;
     border-radius: 50%;
     float: left;
     text-align: center;
-    transition: all 0.7s;
+    transition: all .3s;
 }
 
 ul.social-icons a:hover {
@@ -126,23 +120,24 @@ ul.social-icons a:hover {
     background-color: #fff;
 }
 
+.header-logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    transition: all .3s;
+}
+
+.header-logo:hover {
+    color: var(--contrast-color);
+}
+
 .cart-buttons .btn {
     color: var(--contrast-color);
-    transition: all 0.8s;
-
+    transition: all .3s;
 }
 
 .cart-buttons .btn:hover {
-    border: 1px solid var(--pant-color);
-
-
+    border: 1px solid var(--contrast-color);
 }
 
-/*===================== Logotipe Общие правила===================*/
-.header-logo img {
-    width: 30px;
-    height: auto;
-}
-
-
-/*===================== General rules Общие правила===================*/
+/* ============================= Header rules ============================ */
